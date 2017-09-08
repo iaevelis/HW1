@@ -1,14 +1,14 @@
 RECIPE 1
 	down
 	down
-down
-down
-down
-down
-down
-down
+	down
+	down
+	down
+	down
+	down
+	down
 	right
-right
+	right
 RECIPE 2
 	up
 	up
