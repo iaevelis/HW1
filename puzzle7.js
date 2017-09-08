@@ -13,8 +13,8 @@ if get color is red
 right
 right
 ---------------
-recipe 1
-recipe 2
-recipe 1
-recipe 2
-recipe 1
+RECIPE 1
+RECIPE 2
+RECIPE 1
+RECIPE 2
+RECIPE 1
