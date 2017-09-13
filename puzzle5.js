@@ -1,16 +1,16 @@
-RECIPE 1
-	right
-	right
-	if get color is red
-		up
-	if get color is blue	
-		down
-	right
-	right
----------------
-RECIPE 1
-RECIPE 1
-RECIPE 1
-right
-right
-right
+function running(){
+	right()
+  right()
+  if (getColor() == "blue"){
+    down()
+  } else {
+  	up();
+}
+}
+
+running()
+running()
+running()
+right()
+right()
+right()
