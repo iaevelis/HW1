@@ -1,13 +1,12 @@
-down
-down
-get color
-save
-down
-down
-down
-right
-right
-set color
-right
-right
-up
+down();
+down()
+var firstColor=getColor();
+down()
+down()
+down()
+right()
+right()
+setColor(firstColor);
+right()
+right()
+up()
