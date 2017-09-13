@@ -1,15 +1,26 @@
-right
-if get color is red
-	up
-	up
-	up
-if get color is blue
-	down
-	down
-	down
-save direction 1
-if get color is red
-	left
-if get color is blue
-	right
-direction 1
+right();
+if(getColor()=="red") {
+  up()
+  up()
+	up()
+  var direction = 0
+} else {
+  down();
+	down();
+	down();
+  var direction = 1
+}
+
+if (getColor()=="red"){
+  left();
+} else {
+	right();
+}
+
+if (direction == 0) {
+	up()
+}
+
+if (direction == 1) {
+  down()
+}
