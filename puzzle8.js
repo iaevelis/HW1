@@ -1,33 +1,25 @@
 function heis(){
-	down()
-	down()
-	down()
-	down()
-	down()
-	down()
-	down()
-	down()
-	right()
-	right()
+var steps = 0;
+while (steps < 8) {
+  down();
+  steps = steps + 1;
+}
+right()
+right()
 }
 
 function duo(){
-	up()
-  up()
-  up()
-  up()
-  up()
-  up()
-  up()
-  up()
-  right()
-  right()
+var steps = 0;
+while (steps < 8) {
+  up();
+  steps = steps + 1;
+}
+right()
+right()
 }
 
-heis()
-duo()
-heis()
-duo()
-heis()
-right()
-up()
+heis();
+duo();
+heis();
+duo();
+heis();
